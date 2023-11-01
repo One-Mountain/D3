@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+  }
+
+#title{
+  text-align: center; 
+  
+}
+
+svg{
+  background-color: white;
+  margin: 100px 250px 0px 250px;
+  box-shadow: 3px 0px 24px 6px rgba(0,0,0,0.75);
+}
+
+rect.bar{
+  fill: blue;
+}
+
+rect.bar:hover{
+  fill: white;
+}
+
+div#tooltip{
+  width: 100px;
+  height: 60px;
+  padding: 10px;
+  background-color: #FFB74D;
+  color: black;
+  text-align: center;
+  visibility: hidden;
+  box-shadow: 3px 0px 24px 6px rgba(0,0,0,0.75);
+  opacity: 80%;
+}
